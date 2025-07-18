@@ -20,7 +20,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.List;
 
-@Slf4j
 @State(Scope.Thread)
 public class FederationQueryBenchmark extends BaseFederationTest {
 

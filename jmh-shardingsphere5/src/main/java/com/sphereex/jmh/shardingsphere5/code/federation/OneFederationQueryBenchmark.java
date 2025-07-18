@@ -1,6 +1,5 @@
 package com.sphereex.jmh.shardingsphere5.code.federation;
 
-import lombok.extern.slf4j.Slf4j;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.Level;
 import org.openjdk.jmh.annotations.Scope;
@@ -20,7 +19,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.List;
 
-@Slf4j
 @State(Scope.Thread)
 public class OneFederationQueryBenchmark extends BaseFederationTest {
 

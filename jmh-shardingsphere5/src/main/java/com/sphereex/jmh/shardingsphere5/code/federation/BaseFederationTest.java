@@ -1,14 +1,12 @@
 package com.sphereex.jmh.shardingsphere5.code.federation;
 
 import com.sphereex.jmh.shardingsphere5.ShardingSpheres;
-import lombok.extern.slf4j.Slf4j;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Properties;
 
-@Slf4j
 public class BaseFederationTest {
     
     protected static final DataSource DATA_SOURCE;
